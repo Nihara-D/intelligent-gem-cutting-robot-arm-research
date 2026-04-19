@@ -1,4 +1,3 @@
-
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -36,8 +35,7 @@ class _HomeDashboardState extends State<HomeDashboard>
       "confidence": 94.5,
       "date": "2025-12-27",
 
-      "image":
-          "assets/images/BlueSapphire.jpg",
+      "image": "assets/images/BlueSapphire.jpg",
 
       "semanticLabel":
           "Deep blue sapphire gemstone with brilliant cut facets reflecting light against dark background",
@@ -356,9 +354,7 @@ class _HomeDashboardState extends State<HomeDashboard>
             ),
             SizedBox(height: 3.h),
 
-
             // Top Row: Two Cards
-
             Row(
               children: [
                 Expanded(
@@ -393,7 +389,6 @@ class _HomeDashboardState extends State<HomeDashboard>
               ],
             ),
 
-
             SizedBox(height: 3.h),
 
             // Full Width: Gem Valuation Card (Professional & Prominent)
@@ -406,10 +401,7 @@ class _HomeDashboardState extends State<HomeDashboard>
               ],
               onTap: () {
                 HapticFeedback.lightImpact();
-                Navigator.pushNamed(
-                  context,
-                  '/gem-valuation-input',
-                );
+                Navigator.pushNamed(context, '/gem-valuation-input');
               },
             ),
 
@@ -525,6 +517,4 @@ class _HomeDashboardState extends State<HomeDashboard>
       ),
     );
   }
-
 }
-
