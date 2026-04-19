@@ -106,6 +106,12 @@ class CustomImageWidget extends StatelessWidget {
     }
   }
 
+  Widget _onError(dynamic _, Object err, StackTrace? stack) {
+    debugPrint("Failed to load image $err");
+    debugPrintStack(stackTrace: stack);
+    return SizedBox(width: width, height: height);
+  }
+
   Widget _buildImageView() {
     if (imageUrl != null) {
       switch (imageUrl!.imageType) {
@@ -117,6 +123,7 @@ class CustomImageWidget extends StatelessWidget {
               imageUrl!,
               height: height,
               width: width,
+              errorBuilder: _onError,
               fit: fit ?? BoxFit.contain,
               colorFilter: this.color != null
                   ? ColorFilter.mode(
@@ -135,6 +142,7 @@ class CustomImageWidget extends StatelessWidget {
             fit: fit ?? BoxFit.cover,
             color: color,
             semanticLabel: semanticLabel,
+            errorBuilder: _onError,
           );
         case ImageType.network:
           return CachedNetworkImage(
@@ -157,6 +165,7 @@ class CustomImageWidget extends StatelessWidget {
                   placeHolder,
                   height: height,
                   width: width,
+                  errorBuilder: _onError,
                   fit: fit ?? BoxFit.cover,
                   semanticLabel: semanticLabel,
                 ),
@@ -169,6 +178,7 @@ class CustomImageWidget extends StatelessWidget {
             width: width,
             fit: fit ?? BoxFit.cover,
             color: color,
+            errorBuilder: _onError,
             semanticLabel: semanticLabel,
           );
       }

@@ -31,8 +31,7 @@ class _CutRecommendationResultsState extends State<CutRecommendationResults>
   final List<Map<String, dynamic>> _cutRecommendations = [
     {
       "cutType": "Round Brilliant",
-      "image":
-          "assets/images/cut_recommendation_results/RoundBrilliant.png",
+      "image": "assets/images/cut_recommendation_results/RoundBrilliant.png",
       "semanticLabel":
           "Round brilliant cut diamond with symmetrical facets reflecting light",
       "pavilionAngle": "40.8°",
@@ -53,8 +52,7 @@ class _CutRecommendationResultsState extends State<CutRecommendationResults>
     },
     {
       "cutType": "Oval",
-      "image":
-          "assets/images/cut_recommendation_results/Oval.png",
+      "image": "assets/images/cut_recommendation_results/Oval.png",
       "semanticLabel":
           "Oval cut gemstone with elongated shape and brilliant faceting pattern",
       "pavilionAngle": "41.2°",
@@ -75,8 +73,7 @@ class _CutRecommendationResultsState extends State<CutRecommendationResults>
     },
     {
       "cutType": "Cushion",
-      "image":
-          "assets/images/cut_recommendation_results/Cushion.png",
+      "image": "assets/images/cut_recommendation_results/Cushion.png",
       "semanticLabel":
           "Cushion cut gemstone with rounded corners and large facets creating vintage appeal",
       "pavilionAngle": "42.0°",
@@ -97,8 +94,7 @@ class _CutRecommendationResultsState extends State<CutRecommendationResults>
     },
     {
       "cutType": "Emerald",
-      "image":
-          "assets/images/cut_recommendation_results/Emerald.png",
+      "image": "assets/images/cut_recommendation_results/Emerald.png",
       "semanticLabel":
           "Emerald cut gemstone with rectangular step-cut facets and beveled corners",
       "pavilionAngle": "39.5°",
@@ -119,8 +115,7 @@ class _CutRecommendationResultsState extends State<CutRecommendationResults>
     },
     {
       "cutType": "Cabochon",
-      "image":
-          "assets/images/cut_recommendation_results/Cabochon.png",
+      "image": "assets/images/cut_recommendation_results/Cabochon.png",
       "semanticLabel":
           "Smooth cabochon cut gemstone with polished dome surface without facets",
       "pavilionAngle": "N/A",
@@ -141,8 +136,7 @@ class _CutRecommendationResultsState extends State<CutRecommendationResults>
     },
     {
       "cutType": "Mixed Cut",
-      "image":
-          "assets/images/cut_recommendation_results/MixedCut.png",
+      "image": "assets/images/cut_recommendation_results/MixedCut.png",
       "semanticLabel":
           "Mixed cut gemstone combining brilliant crown and step-cut pavilion for optimal light performance",
       "pavilionAngle": "40.0°",
