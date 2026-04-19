@@ -40,8 +40,7 @@ class _AnalysisHistoryState extends State<AnalysisHistory>
     {
       "id": 1,
       "type": "detection",
-      "thumbnail":
-          "assets/images/analysis_history/emerald.png",
+      "thumbnail": "assets/images/analysis_history/emerald.png",
       "semanticLabel":
           "Close-up of a brilliant cut emerald gemstone with deep green color on black background",
       "name": "Emerald",
@@ -57,8 +56,7 @@ class _AnalysisHistoryState extends State<AnalysisHistory>
     {
       "id": 2,
       "type": "cut_recommendation",
-      "thumbnail":
-          "assets/images/analysis_history/sapphire.jpg",
+      "thumbnail": "assets/images/analysis_history/sapphire.jpg",
       "semanticLabel":
           "Oval cut sapphire gemstone with brilliant blue color on white background",
       "name": "Sapphire",
@@ -75,8 +73,7 @@ class _AnalysisHistoryState extends State<AnalysisHistory>
     {
       "id": 3,
       "type": "detection",
-      "thumbnail":
-          "assets/images/analysis_history/diamond.jpg",
+      "thumbnail": "assets/images/analysis_history/diamond.jpg",
       "semanticLabel":
           "Round brilliant cut diamond with exceptional clarity on dark surface",
       "name": "Diamond",
@@ -88,8 +85,7 @@ class _AnalysisHistoryState extends State<AnalysisHistory>
     {
       "id": 4,
       "type": "detection",
-      "thumbnail":
-          "assets/images/analysis_history/ruby-polished.jpg",
+      "thumbnail": "assets/images/analysis_history/ruby-polished.jpg",
       "semanticLabel":
           "Cushion cut ruby gemstone with deep red color and excellent transparency",
       "name": "Ruby",
@@ -101,8 +97,7 @@ class _AnalysisHistoryState extends State<AnalysisHistory>
     {
       "id": 5,
       "type": "cut_recommendation",
-      "thumbnail":
-          "assets/images/analysis_history/amethyst.jpg",
+      "thumbnail": "assets/images/analysis_history/amethyst.jpg",
       "semanticLabel":
           "Pear shaped amethyst gemstone with purple hue on neutral background",
       "name": "Amethyst",
@@ -119,8 +114,7 @@ class _AnalysisHistoryState extends State<AnalysisHistory>
     {
       "id": 6,
       "type": "detection",
-      "thumbnail":
-          "assets/images/analysis_history/topaz.png",
+      "thumbnail": "assets/images/analysis_history/topaz.png",
       "semanticLabel":
           "Emerald cut topaz gemstone with golden yellow color and high clarity",
       "name": "Topaz",
@@ -132,8 +126,7 @@ class _AnalysisHistoryState extends State<AnalysisHistory>
     {
       "id": 7,
       "type": "detection",
-      "thumbnail":
-          "assets/images/analysis_history/garnet.png",
+      "thumbnail": "assets/images/analysis_history/garnet.png",
       "semanticLabel":
           "Round cut garnet gemstone with deep red color on black velvet",
       "name": "Garnet",
@@ -149,8 +142,7 @@ class _AnalysisHistoryState extends State<AnalysisHistory>
     {
       "id": 8,
       "type": "cut_recommendation",
-      "thumbnail":
-          "assets/images/analysis_history/opal.png",
+      "thumbnail": "assets/images/analysis_history/opal.png",
       "semanticLabel":
           "Cabochon cut opal gemstone showing play of color with blue and green flashes",
       "name": "Opal",

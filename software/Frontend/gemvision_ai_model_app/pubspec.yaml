@@ -84,7 +84,7 @@ flutter:
     - assets/
     - assets/images/
     - assets/images/analysis_history/
-    - assets/images/cut_recommendation_result/
+    - assets/images/cut_recommendation_results/
   # CRITICAL ASSET MANAGEMENT RULES:
   # - DO NOT ADD NEW ASSET DIRECTORIES (assets/svg/, assets/icons/, etc.)
   # - ONLY USE EXISTING AND ITEMS AVAILABLE IN THE DIRECTORIES LISTED ABOVE (assets/, assets/images/)

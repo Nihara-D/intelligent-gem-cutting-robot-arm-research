@@ -29,8 +29,7 @@ class _DetectionResultsState extends State<DetectionResults> {
     "gemstone_name": "Natural Emerald",
     "confidence_score": 94.7,
     "classification": "Genuine Gemstone",
-    "reference_image":
-        "assets/images/NaturalEmerald.jpg",
+    "reference_image": "assets/images/NaturalEmarald.png",
     "semanticLabel":
         "Brilliant cut natural emerald gemstone with deep green color and hexagonal crystal structure on white background",
     "user_properties": {
