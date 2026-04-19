@@ -34,8 +34,7 @@ class GemstoneTypeSelectorWidget extends StatelessWidget {
   static const List<GemstoneType> gemstoneTypes = [
     GemstoneType(
       name: 'Diamond',
-      imageUrl:
-          'assets/images/analysis_history/diamond.jpg',
+      imageUrl: 'assets/images/analysis_history/diamond.jpg',
       semanticLabel:
           'Brilliant cut diamond with white sparkle on dark background',
       minRI: 2.417,
@@ -43,72 +42,63 @@ class GemstoneTypeSelectorWidget extends StatelessWidget {
     ),
     GemstoneType(
       name: 'Ruby',
-      imageUrl:
-          'assets/images/analysis_history/ruby-polished.jpg',
+      imageUrl: 'assets/images/analysis_history/ruby-polished.jpg',
       semanticLabel: 'Deep red ruby gemstone with rich crimson color',
       minRI: 1.762,
       maxRI: 1.770,
     ),
     GemstoneType(
       name: 'Sapphire',
-      imageUrl:
-          'assets/images/analysis_history/sapphire.jpg',
+      imageUrl: 'assets/images/analysis_history/sapphire.jpg',
       semanticLabel: 'Blue sapphire gemstone with deep azure color',
       minRI: 1.762,
       maxRI: 1.770,
     ),
     GemstoneType(
       name: 'Emerald',
-      imageUrl:
-          'assets/images/analysis_history/emerald.jpg',
+      imageUrl: 'assets/images/analysis_history/Emarald.png',
       semanticLabel: 'Green emerald gemstone with vibrant forest green color',
       minRI: 1.577,
       maxRI: 1.583,
     ),
     GemstoneType(
       name: 'Amethyst',
-      imageUrl:
-          'assets/images/analysis_history/amethyst.jpg',
+      imageUrl: 'assets/images/analysis_history/amethyst.jpg',
       semanticLabel: 'Purple amethyst gemstone with violet hue',
       minRI: 1.544,
       maxRI: 1.553,
     ),
     GemstoneType(
       name: 'Topaz',
-      imageUrl:
-          'assets/images/analysis_history/topaz.jpg',
+      imageUrl: 'assets/images/analysis_history/topaz.png',
       semanticLabel: 'Golden topaz gemstone with warm amber color',
       minRI: 1.609,
       maxRI: 1.643,
     ),
     GemstoneType(
       name: 'Aquamarine',
-      imageUrl:
-          'assets/images/analysis_history/aquamarine.jpg',
+      imageUrl: 'assets/images/analysis_history/aquamarine.jpg',
       semanticLabel: 'Light blue aquamarine gemstone with sea-like color',
       minRI: 1.577,
       maxRI: 1.583,
     ),
     GemstoneType(
       name: 'Garnet',
-      imageUrl:
-          'assets/images/analysis_history/garnet.jpg',
+      imageUrl: 'assets/images/analysis_history/garnet.png',
       semanticLabel: 'Dark red garnet gemstone with burgundy color',
       minRI: 1.714,
       maxRI: 1.888,
     ),
     GemstoneType(
       name: 'Peridot',
-      imageUrl:
-          'assets/images/analysis_history/peridot.jpg',
+      imageUrl: 'assets/images/analysis_history/peridot.jpg',
       semanticLabel: 'Olive green peridot gemstone with lime color',
       minRI: 1.654,
       maxRI: 1.690,
     ),
     GemstoneType(
       name: 'Opal',
-      imageUrl:
-          'assets/images/analysis_history/opal.jpg',
+      imageUrl: 'assets/images/analysis_history/opal.png',
       semanticLabel:
           'Multicolored opal gemstone with iridescent play of colors',
       minRI: 1.450,
@@ -157,6 +147,7 @@ class GemstoneTypeSelectorWidget extends StatelessWidget {
               selectedItem: selectedGemstone,
               onChanged: onChanged,
               itemAsString: (GemstoneType gemstone) => gemstone.name,
+              compareFn: (item1, item2) => item1.name == item2.name,
               decoratorProps: DropDownDecoratorProps(
                 decoration: InputDecoration(
                   hintText: 'Select gemstone type',

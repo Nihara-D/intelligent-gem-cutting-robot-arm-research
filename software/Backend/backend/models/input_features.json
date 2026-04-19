@@ -1,0 +1,12 @@
+[
+    "gemstone_type",
+    "ri",
+    "carat_weight",
+    "length_mm",
+    "width_mm",
+    "depth_mm",
+    "aspect_ratio",
+    "depth_ratio",
+    "elongation",
+    "roundness"
+]
