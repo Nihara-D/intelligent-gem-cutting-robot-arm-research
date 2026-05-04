@@ -1,0 +1,28 @@
+{
+  "n_samples": 107,
+  "n_features": 168,
+  "binary_cv_f1_mean": 0.8813181602655288,
+  "binary_cv_f1_std": 0.029486246425059884,
+  "type_cv_f1_mean": NaN,
+  "type_cv_f1_std": NaN,
+  "label_classes": [
+    "Black Inclusion",
+    "Bubble",
+    "Clarity",
+    "Crack",
+    "Inclusion",
+    "Lily Pad",
+    "None",
+    "Scratch"
+  ],
+  "defect_distribution": {
+    "Black Inclusion": 5,
+    "Bubble": 4,
+    "Clarity": 2,
+    "Crack": 3,
+    "Inclusion": 57,
+    "Lily Pad": 6,
+    "None": 23,
+    "Scratch": 7
+  }
+}
