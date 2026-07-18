@@ -225,7 +225,6 @@ This research work has been successfully published at:
 
 **DOI:** 10.1109/CICN70047.2026.11594395
 
----
 
 <div align="center">
 
