@@ -210,6 +210,23 @@ The system provides a data-driven recommendation including **Cut Family**, **Exa
 
 ---
 
+### Publication
+
+This research work has been successfully published at:
+
+**Intelligent Gem Cutting Robotic Arm: A Semi-Autonomous Robotic System for Multimodal Gemstone Identification, Defect-Aware Evaluation, and 3D Cut Planning**
+
+ **Conference:** IEEE 18th International Conference on Computational Intelligence and Communication Networks (CICN) 2026  
+ **Publication Date:** June, 2026  
+ **Publisher:** IEEE  
+ **Conference Location:** Manila, Philippines  
+
+ **IEEE Xplore:** https://ieeexplore.ieee.org/document/11594395
+
+**DOI:** 10.1109/CICN70047.2026.11594395
+
+---
+
 <div align="center">
 
 ### Technical Stack
